@@ -162,7 +162,7 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <Icon name="MapPin" size={18} className="text-primary mt-1" />
                 <div>
-                  <div className="text-white">Москва, ул. Мастеров, 15</div>
+                  <div className="text-white">Новосибирск, ул.Ленина , 15</div>
                   <div className="text-gray-400 text-sm">Выставочный зал</div>
                 </div>
               </div>
