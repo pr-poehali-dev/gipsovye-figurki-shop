@@ -3,46 +3,46 @@ import Icon from "@/components/ui/icon";
 const Categories = () => {
   const categories = [
     {
-      title: "Античность",
-      description: "Классические статуи и бюсты",
+      title: "Гостиная",
+      description: "Элегантные акценты для главной комнаты",
+      icon: "Sofa",
+      color: "from-amber-500 to-orange-500",
+      count: 120,
+    },
+    {
+      title: "Спальня",
+      description: "Умиротворяющие композиции для отдыха",
+      icon: "Moon",
+      color: "from-indigo-500 to-purple-500",
+      count: 85,
+    },
+    {
+      title: "Кабинет",
+      description: "Вдохновляющие решения для работы",
+      icon: "BookOpen",
+      color: "from-emerald-500 to-teal-500",
+      count: 67,
+    },
+    {
+      title: "Классический",
+      description: "Античные формы и традиции",
       icon: "Crown",
       color: "from-purple-500 to-pink-500",
       count: 150,
     },
     {
-      title: "Религиозные",
-      description: "Ангелы, святые, иконы",
-      icon: "Star",
-      color: "from-blue-500 to-cyan-500",
-      count: 89,
-    },
-    {
-      title: "Животные",
-      description: "Фигурки животных и птиц",
-      icon: "Heart",
-      color: "from-green-500 to-emerald-500",
-      count: 127,
-    },
-    {
-      title: "Современные",
-      description: "Абстракция и модерн",
+      title: "Современный",
+      description: "Минимализм и чистые линии",
       icon: "Sparkles",
-      color: "from-orange-500 to-red-500",
+      color: "from-slate-500 to-gray-500",
+      count: 98,
+    },
+    {
+      title: "Скандинавский",
+      description: "Уют и природная гармония",
+      icon: "Trees",
+      color: "from-blue-500 to-cyan-500",
       count: 76,
-    },
-    {
-      title: "Декоративные",
-      description: "Вазы, подсвечники, украшения",
-      icon: "Gem",
-      color: "from-violet-500 to-purple-500",
-      count: 143,
-    },
-    {
-      title: "На заказ",
-      description: "Индивидуальное изготовление",
-      icon: "Palette",
-      color: "from-pink-500 to-rose-500",
-      count: 25,
     },
   ];
 
@@ -51,14 +51,14 @@ const Categories = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-            Наши
+            Для каждого
             <span className="bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent">
               {" "}
-              Категории
+              Пространства
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Широкий выбор гипсовых изделий для любого интерьера и вкуса
+            Подберите идеальные фигуры для вашего стиля и комнаты
           </p>
         </div>
 

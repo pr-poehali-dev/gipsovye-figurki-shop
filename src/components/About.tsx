@@ -8,68 +8,67 @@ const About = () => {
           {/* Content */}
           <div className="order-2 lg:order-1">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-              О нашей
+              Искусство в
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                 {" "}
-                мастерской
+                Интерьере
               </span>
             </h2>
 
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Уже более 15 лет мы создаем уникальные гипсовые фигурки, которые
-              украшают дома и офисы по всей стране. Каждое изделие — это
-              результат кропотливой ручной работы и многолетнего опыта.
+              Уже 15 лет мы помогаем создавать неповторимые интерьеры. Наши
+              гипсовые фигуры — это не просто декор, а художественные акценты,
+              которые преображают пространство и создают особую атмосферу в
+              доме.
             </p>
 
             <div className="space-y-6 mb-8">
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                  <Icon name="Award" size={24} className="text-primary" />
+                  <Icon name="Palette" size={24} className="text-primary" />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-800 mb-2">
-                    Качество материалов
+                    Консультация дизайнера
                   </h3>
                   <p className="text-gray-600">
-                    Используем только высококачественный гипс и экологически
-                    чистые красители
+                    Поможем подобрать фигуры под ваш стиль интерьера и цветовую
+                    гамму
                   </p>
                 </div>
               </div>
 
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                  <Icon name="Users" size={24} className="text-accent" />
+                  <Icon name="Ruler" size={24} className="text-accent" />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-800 mb-2">
-                    Команда мастеров
+                    Идеальные пропорции
                   </h3>
                   <p className="text-gray-600">
-                    Наши художники имеют профильное образование и богатый опыт
-                    работы
+                    Учитываем размеры помещения для гармоничного размещения
                   </p>
                 </div>
               </div>
 
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-secondary/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                  <Icon name="Truck" size={24} className="text-secondary" />
+                  <Icon name="Home" size={24} className="text-secondary" />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-800 mb-2">
-                    Быстрая доставка
+                    Установка на дому
                   </h3>
                   <p className="text-gray-600">
-                    Тщательно упаковываем и доставляем по всей России за 3-5
-                    дней
+                    Профессиональная установка и размещение в интерьере
                   </p>
                 </div>
               </div>
             </div>
 
             <button className="bg-gradient-to-r from-primary to-accent text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-xl transition-all hover:scale-105">
-              Узнать больше о нас
+              Получить консультацию
             </button>
           </div>
 

@@ -21,25 +21,25 @@ const Header = () => {
               href="#"
               className="text-gray-700 hover:text-primary transition-colors font-medium"
             >
-              Главная
+              По комнатам
             </a>
             <a
               href="#"
               className="text-gray-700 hover:text-primary transition-colors font-medium"
             >
-              Каталог
+              Стили интерьера
             </a>
             <a
               href="#"
               className="text-gray-700 hover:text-primary transition-colors font-medium"
             >
-              О нас
+              Коллекции
             </a>
             <a
               href="#"
               className="text-gray-700 hover:text-primary transition-colors font-medium"
             >
-              Контакты
+              Галерея интерьеров
             </a>
           </nav>
 
