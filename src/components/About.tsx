@@ -67,9 +67,7 @@ const About = () => {
               </div>
             </div>
 
-            <button className="bg-gradient-to-r from-primary to-accent text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-xl transition-all hover:scale-105">
-              Получить консультацию
-            </button>
+            <button className="from-primary to-accent px-8 py-4 font-semibold hover:shadow-xl transition-all hover:scale-105 text-[#ffffff] text-lg rounded-0 bg-[#ffffff]"></button>
           </div>
 
           {/* Image */}
