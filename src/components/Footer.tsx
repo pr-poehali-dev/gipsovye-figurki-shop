@@ -152,7 +152,12 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <Icon name="Mail" size={18} className="text-primary mt-1" />
                 <div>
-                  <div className="text-white">info@gipsart.ru</div>
+                  <a
+                    href="mailto:Serdj65@yandex.ru"
+                    className="text-white hover:text-primary transition-colors"
+                  >
+                    Serdj65@yandex.ru
+                  </a>
                   <div className="text-gray-400 text-sm">
                     Ответим в течение часа
                   </div>
