@@ -140,9 +140,12 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <Icon name="Phone" size={18} className="text-primary mt-1" />
                 <div>
-                  <div className="text-white font-medium">
-                    +7 (495) 123-45-67
-                  </div>
+                  <a
+                    href="tel:+79137530165"
+                    className="text-white font-medium hover:text-primary transition-colors"
+                  >
+                    +7 913 753 01 65
+                  </a>
                   <div className="text-gray-400 text-sm">
                     Ежедневно 9:00-21:00
                   </div>
