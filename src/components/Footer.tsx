@@ -153,7 +153,9 @@ const Footer = () => {
                 <Icon name="Mail" size={18} className="text-primary mt-1" />
                 <div>
                   <a
-                    href="mailto:Serdj65@yandex.ru"
+                    href="https://mail.yandex.ru/compose?to=Serdj65@yandex.ru"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-white hover:text-primary transition-colors"
                   >
                     Serdj65@yandex.ru
