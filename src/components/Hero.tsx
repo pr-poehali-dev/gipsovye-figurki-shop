@@ -33,7 +33,7 @@ const Hero = () => {
           <button className="bg-white text-gray-800 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transition-all hover:scale-105 shadow-xl">
             Подобрать для дома
           </button>
-          <button className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-gray-800 transition-all hover:scale-105">
+          <button className="border-2 border-white text-white px-8 py-4 font-semibold text-lg hover:bg-white hover:text-gray-800 transition-all hover:scale-105 rounded-md">
             Галерея интерьеров
           </button>
         </div>
