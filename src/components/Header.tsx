@@ -10,8 +10,8 @@ const Header = () => {
             <div className="w-10 h-10 gradient-bg rounded-full flex items-center justify-center">
               <Icon name="Sparkles" size={24} className="text-white" />
             </div>
-            <h1 className="text-2xl font-bold bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
-              ГипсАрт
+            <h1 className="text-2xl font-bold bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-amber-500">
+              ГипсИнтерьер
             </h1>
           </div>
 
